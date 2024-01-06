@@ -179,6 +179,9 @@ button {
   color: #fff;
 }
 @media (max-width: 991px) {
+  .container {
+    padding: 0 15px;
+  }
   .menu-container__inner {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
