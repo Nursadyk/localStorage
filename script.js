@@ -43,6 +43,7 @@ createBtn.onclick = () => {
   foodInput.value = "";
   priceInput.value = "";
 };
+
 function createMenu() {
   const exam = JSON.parse(localStorage.getItem("obj"));
   console.log(exam);
